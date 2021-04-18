@@ -1,0 +1,232 @@
+<html>
+
+<head>
+    <title> Dr Jerry</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/atendimento.css">
+    <link rel="stylesheet" href="assets/css/cirurgias.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+</head>
+
+<body>
+
+    <header style="background-image: url(assets/img/header.jpeg);">
+        <div class="apresentacao">
+            <img class="apresentacao__img" src="assets/img/logo.png" alt="">
+        </div>
+    </header>
+    <div class="nav">
+        <nav class="container-md">
+            <ul class="menuItems">
+                <li><a href='#' data-item='Dr. Jerry Boni'> Dr. Jerry Boni </a></li>
+                <li> / </li>
+                <li><a href='./atendimento.html' data-item='Atendimento'>Atendimento</a></li>
+                <li> / </li>
+                <li><a href="./cirurgias.html" data-item='Entenda as Cirurgias'> Entenda as Cirurgias </a> </li>
+                <li> / </li>
+                <li><a href='#' data-item='Tratamentos'> Tratamentos </a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="position-fixed whatsapp">
+        <a href="">
+            Fale conosco
+            <img src="assets/img/rede-social/icons8-whatsapp-100.png" alt="">
+        </a>
+    </div>
+
+    <section class="local">
+        <div class="container">
+            <h1> Locais de atendimento </h1>
+            <div class="row">
+                <div class="col text-center">
+                    <a href="#mapa1" rel="modal:open"><img src="assets/img/atendimento/clinor-sul.jfif" alt=""
+                            class="local_clinor"></a>
+                    <p class="endereco"> Rua Walfredo Macedo Brandão, 1011 - Jardim Cidade Universitária, <br> João
+                        Pessoa -
+                        PB, 58052-200</p>
+                    <p class="telefone">Telefone: (83) 3235-4348 </p>
+                </div>
+                <div class="col text-center">
+                    <a href="#mapa2" rel="modal:open"> <img src="assets/img/atendimento/clinor-praia.jfif" alt=""
+                            class="local_clinor"></a>
+                    <p class="endereco">Av. Gen. Edson Ramalho, 479 - Manaíra, <br> João Pessoa - PB, 58038-100</p>
+                    <p class="telefone">Telefone: (83) 3226-7555</p>
+                </div>
+                <div class="col text-center">
+                    <a href="#mapa3" rel="modal:open"> <img src="assets/img/atendimento/clinor-centro.jfif" alt=""
+                            class="local_clinor"></a>
+                    <p class="endereco"> Av. Pres. Getúlio Vargas, 126 - Centro, <br> João Pessoa - PB, 58013-240</p>
+                    <p class="telefone">Telefone: (83) 3015-2029</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="mapa1" class="modal">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.724647343984!2d-34.84048468522584!3d-7.157799594831782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7acc2f49e045235%3A0x55f6e4d622ebaf0!2sClinor%20Sul%20-%20Ortopedia%20e%20Fraturas!5e0!3m2!1spt-BR!2sbr!4v1618070513649!5m2!1spt-BR!2sbr"
+                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div id="mapa2" class="modal">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.1801765514338!2d-34.83340868585324!3d-7.105106671636755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7acdd17111572df%3A0xcdf779dbd17ab82c!2sAv.%20Gen.%20Edson%20Ramalho%2C%20479%20-%20Mana%C3%ADra%2C%20Jo%C3%A3o%20Pessoa%20-%20PB%2C%2058038-100!5e0!3m2!1spt-BR!2sbr!4v1618070741535!5m2!1spt-BR!2sbr"
+                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div id="mapa3" class="modal">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.0426310965067!2d-34.879226685225916!3d-7.121057994857753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ace7e246ccec4d%3A0x981a5caccc93d8ec!2sClinor%20-%20Cl%C3%ADnica%20de%20Ortopedia%20Traumatologia%20e%20Reabilita%C3%A7%C3%A3o%20LTDA.!5e0!3m2!1spt-BR!2sbr!4v1618070816233!5m2!1spt-BR!2sbr"
+                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <section class="agendamento">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1> Que tal marcar a sua consulta?</h1>
+                    <h2> Comece preenchendo o formulário</h2>
+                </div>
+                <div class="col">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Nome:</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Email:</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Telefone:</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Preferência do dia da semana para consulta</label>
+                            <select class="form-control">
+                                <option>Selecione</option>
+                                <option value=""> Segunda</option>
+                                <option value=""> Terça</option>
+                                <option value=""> Quarta</option>
+                                <option value=""> Quinta</option>
+                                <option value=""> Sexta</option>
+                                <option value=""> Qualquer dia</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-enviar">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="convenio">
+        <div class="container">
+            <h1> Nossos Convênios</h1>
+            <div class="row align-content-center">
+                <div class="col-md-3">
+                    <img class="convenio" src="assets/img/convenios/bradesco-saude.png" alt="">
+                </div>
+                <div class="col-md-9">
+                    <div class="row mg-convenio">
+                        <div class="col">
+                            <img src="assets/img/convenios/ami.png" alt="" class="convenio__img">
+                        </div>
+                        <div class="col">
+                            <img src="assets/img/convenios/amil.png" alt="" class="convenio__img">
+                        </div>
+                        <div class="col">
+                            <img src="assets/img/convenios/camed.png" alt="" class="convenio__img">
+                        </div>
+                        <div class="col">
+                            <img src="assets/img/convenios/funasa.png" alt="" class="convenio__img">
+                        </div>
+                        <div class="col">
+                            <img src="assets/img/convenios/petrobras.png" alt="" class="convenio__img">
+                        </div>
+                    </div>
+                    <div class="row mg-convenio">
+                        <div class="col">
+                            <img src="assets/img/convenios/plan-assiste.jfif" alt="" class="convenio__img">
+                        </div>
+                        <div class="col">
+                            <img src="assets/img/convenios/smile.png" alt="" class="convenio__img">
+                        </div>
+                        <div class="col">
+                            <img src="assets/img/convenios/sulamerica.png" alt="" class="convenio__img">
+                        </div>
+                        <div class="col">
+                            <img src="assets/img/convenios/unibanco.png" alt="" class="convenio__img">
+                        </div>
+                        <div class="col">
+                            <img src="assets/img/convenios/unimed.png" alt="" class="convenio__img">
+                        </div>
+                    </div>
+                    <div class="row mg-convenio">
+                        <div class="col">
+                            <img src="assets/img/convenios/caixa.jfif" alt="" class="convenio__img">
+                        </div>
+                        <div class="col">
+                            <img src="assets/img/convenios/capesaude.png" alt="" class="convenio__img">
+                        </div>
+                        <div class="col">
+                            <img src="assets/img/convenios/gama.png" alt="" class="convenio__img">
+                        </div>
+                        <div class="col">
+                            <img src="assets/img/convenios/geap.png" alt="" class="convenio__img">
+                        </div>
+                        <div class="col">
+                            <img src="assets/img/convenios/afrafep.png" alt="" class="convenio__img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer__box">
+                <div>
+                    <a href=""> Dr. Jerry Boni / CRM 8753 / RQE 5907</a>
+                </div>
+                <div>
+                    <a href=""> <img class="footer__rede" src="assets/img/rede-social/whatsapp.png" alt=""></a>
+                    <a href=""> <img class="footer__rede" src="assets/img/rede-social/instagran.png" alt=""></a>
+                    <a href=""> <img class="footer__rede" src="assets/img/rede-social/linkedin.png" alt=""></a>
+                </div>
+
+            </div>
+
+            <div class="footer__links row">
+                <a href="" class="col text-center"> Agendar Consulta</a>
+                <a href="" class="col text-center"> Atendimento </a>
+                <a href="" class="col text-center"> Salvar Contato</a>
+                <a href="" class="col text-center"> Convênios </a>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>

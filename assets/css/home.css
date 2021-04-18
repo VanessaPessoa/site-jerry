@@ -1,0 +1,45 @@
+.formacao{
+    padding: 10vh 0;
+}
+
+.box-formacao{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.perfil-dr img{
+    position: relative;
+    width: 60%;
+    height: auto;
+    margin: 0 20% 5%;
+}
+
+.row-formacao{
+    margin-bottom: 30px;
+}
+
+.formacao p{
+    color: rgb(51, 55, 107);
+    font-size: 18px;
+    line-height: 28px;
+    text-align: justify;
+}
+
+.formacao h1{
+    color: rgb(92, 138, 81);
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.formacao .plataforma-dados{
+    position: relative;
+    margin-top: 80px;
+    padding: 30px 20px;
+}
+
+.formacao .plataforma-dados__item{
+    width: 100%;
+    height: 150px;
+    background-color: lawngreen;
+}

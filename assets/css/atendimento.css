@@ -1,0 +1,87 @@
+.local, .convenio{
+    width: 100%;
+    position: relative;
+    margin: 10vh 0;
+}
+
+.local h1, .convenio h1{
+    font-size: 32px;
+    color: rgb(51, 55, 107);
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.endereco, .telefone{
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 20px;
+    color: rgb(51, 55, 107);
+}
+
+.local a{
+    cursor: zoom-in;
+}
+
+.local_clinor{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid rgb(51, 55, 107);
+    padding: 10px;
+}
+
+.modal {
+    max-width: 100%;
+    width: 100%;
+    z-index: 1010;
+}
+
+.modal a.close-modal {
+    top: 5px;
+    right: 5px;
+}
+
+.convenio__img{
+    position: relative;
+    width: 100px;
+    /* height: 100px; */
+}
+
+.carousel {
+    position: relative;
+    top: 60%;
+    transform: translateY(-50%);
+}
+
+.mg-convenio{
+    margin-bottom: 10px;
+}
+
+.agendamento{
+    position: relative;
+    width: 100%;
+    padding: 10vh;
+    background-color: rgb(51, 55, 107);
+}
+
+.agendamento h1{
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.agendamento h2{
+    color: #fff;
+    font-size: 24px;
+}
+
+.form-group label{
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.btn-enviar{
+    background-color: #fff;
+    color: rgb(51, 55, 107);
+}
