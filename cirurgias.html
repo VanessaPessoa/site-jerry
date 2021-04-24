@@ -15,15 +15,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
     </script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <script src="assets/js/bootstrap-paginator.js"></script>
+
 </head>
 
 <body>
@@ -41,8 +41,7 @@
                 <li><a href='./atendimento.html' data-item='Atendimento'>Atendimento</a></li>
                 <li> / </li>
                 <li><a href="./cirurgias.html" data-item='Entenda as Cirurgias'> Entenda as Cirurgias </a> </li>
-                <li> / </li>
-                <li><a href='#' data-item='Tratamentos'> Tratamentos </a></li>
+
             </ul>
         </nav>
     </div>
@@ -55,89 +54,64 @@
 
 
     <section class="blog-cirurgias">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-9">
-                    <div class="blog-cirurgia-item">
-                        <a href="./cirurgia_post.html">
-                            <img src="assets/img/cirurgia1/cirurgia1.jpeg" alt="">
-                        </a>
-                        <div class="text">
-                            <a href="./cirurgia_post.html" class="link">Link cirurgia</a>
-                            <p class="titulo">Titulo</p>
-                            <p class="resumo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci tenetur
-                                quis accusantium facilis doloribus. Doloremque velit illum nisi sit cumque dolore
-                                voluptates quis eaque corrupti.</p>
-                        </div>
-                    </div>
+        <div class="container-fluid container-lg">
+            <div class="row flex-column-reverse flex-sm-row">
+                <div class="col-sm-8 col-md-9">
 
                     <div class="blog-cirurgia-item">
-                        <a href="">
-                            <img src="assets/img/cirurgia1/cirurgia1.jpeg" alt="">
-                        </a>
-                        <div class="text">
-                            <a href="" class="link">Link cirurgia</a>
-                            <p class="titulo">Titulo</p>
-                            <p class="resumo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci tenetur
-                                quis accusantium facilis doloribus. Doloremque velit illum nisi sit cumque dolore
-                                voluptates quis eaque corrupti.</p>
+                        <div class="row">
+                            <div class="col-sm-5">
+                                <a href="">
+                                    <img src="assets/img/post-cirurgia.jpeg" alt="">
+                                </a>
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="text">
+                                    <a href="" class="link">Link cirurgia</a>
+                                    <p class="titulo">Titulo</p>
+                                    <p class="resumo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci tenetur quis accusantium facilis doloribus. Doloremque velit illum nisi sit cumque dolore voluptates quis eaque corrupti.</p>
+                                </div>
+                            </div>
                         </div>
+
+                    </div>
+                    <div class="blog-cirurgia-item">
+                        <div class="row">
+                            <div class=" col-sm-5">
+                                <a href="">
+                                    <img src="assets/img/post-cirurgia.jpeg" alt="">
+                                </a>
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="text">
+                                    <a href="" class="link">Link cirurgia</a>
+                                    <p class="titulo">Titulo</p>
+                                    <p class="resumo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci tenetur quis accusantium facilis doloribus. Doloremque velit illum nisi sit cumque dolore voluptates quis eaque corrupti.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="blog-cirurgia-item">
+                        <div class="row">
+                            <div class="col-sm-5">
+                                <a href="">
+                                    <img src="assets/img/post-cirurgia.jpeg" alt="">
+                                </a>
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="text">
+                                    <a href="" class="link">Link cirurgia</a>
+                                    <p class="titulo">Titulo</p>
+                                    <p class="resumo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci tenetur quis accusantium facilis doloribus. Doloremque velit illum nisi sit cumque dolore voluptates quis eaque corrupti.</p>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
 
-                    <div class="blog-cirurgia-item">
-                        <a href="">
-                            <img src="assets/img/cirurgia1/cirurgia1.jpeg" alt="">
-                        </a>
-                        <div class="text">
-                            <a href="" class="link">Link cirurgia</a>
-                            <p class="titulo">Titulo</p>
-                            <p class="resumo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci tenetur
-                                quis accusantium facilis doloribus. Doloremque velit illum nisi sit cumque dolore
-                                voluptates quis eaque corrupti.</p>
-                        </div>
-                    </div>
-
-                    <div class="blog-cirurgia-item">
-                        <a href="">
-                            <img src="assets/img/cirurgia1/cirurgia1.jpeg" alt="">
-                        </a>
-                        <div class="text">
-                            <a href="" class="link">Link cirurgia</a>
-                            <p class="titulo">Titulo</p>
-                            <p class="resumo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci tenetur
-                                quis accusantium facilis doloribus. Doloremque velit illum nisi sit cumque dolore
-                                voluptates quis eaque corrupti.</p>
-                        </div>
-                    </div>
-
-                    <div class="blog-cirurgia-item">
-                        <a href="">
-                            <img src="assets/img/cirurgia1/cirurgia1.jpeg" alt="">
-                        </a>
-                        <div class="text">
-                            <a href="" class="link">Link cirurgia</a>
-                            <p class="titulo">Titulo</p>
-                            <p class="resumo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci tenetur
-                                quis accusantium facilis doloribus. Doloremque velit illum nisi sit cumque dolore
-                                voluptates quis eaque corrupti.</p>
-                        </div>
-                    </div>
-
-                    <div class="blog-cirurgia-item">
-                        <a href="">
-                            <img src="assets/img/cirurgia1/cirurgia1.jpeg" alt="">
-                        </a>
-                        <div class="text">
-                            <a href="" class="link">Link cirurgia</a>
-                            <p class="titulo">Titulo</p>
-                            <p class="resumo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci tenetur
-                                quis accusantium facilis doloribus. Doloremque velit illum nisi sit cumque dolore
-                                voluptates quis eaque corrupti.</p>
-                        </div>
-                    </div>
-                    
                 </div>
-                <div class="col-md-3">
+                <div class="col-sm-4 col-md-3">
                     <div class="recentes">
                         <h3>Posts recentes</h3>
                         <a href=""> Link Cirurgia </a>
@@ -165,15 +139,17 @@
 
             </div>
 
-            <div class="footer__links row">
-                <a href="" class="col text-center"> Agendar Consulta</a>
-                <a href="" class="col text-center"> Atendimento </a>
-                <a href="" class="col text-center"> Salvar Contato</a>
-                <a href="" class="col text-center"> Convênios </a>
+            <div class="footer__links">
+                <a href="" class="text-center"> Agendar Consulta</a>
+                <a href="" class="text-center"> Atendimento </a>
+                <a href="" class="text-center"> Salvar Contato</a>
+                <a href="" class="text-center"> Convênios </a>
             </div>
 
         </div>
     </footer>
+
+
 </body>
 
 </html>

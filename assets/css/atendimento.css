@@ -1,10 +1,12 @@
-.local, .convenio{
+.local,
+.convenio {
     width: 100%;
     position: relative;
     margin: 10vh 0;
 }
 
-.local h1, .convenio h1{
+.local h1,
+.convenio h1 {
     font-size: 32px;
     color: rgb(51, 55, 107);
     margin-bottom: 50px;
@@ -12,18 +14,20 @@
     font-weight: bold;
 }
 
-.endereco, .telefone{
+.endereco,
+.telefone {
     font-size: 14px;
     font-weight: 300;
+    line-height: 20px;
     margin-top: 20px;
     color: rgb(51, 55, 107);
 }
 
-.local a{
+.local a {
     cursor: zoom-in;
 }
 
-.local_clinor{
+.local_clinor {
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -42,9 +46,14 @@
     right: 5px;
 }
 
-.convenio__img{
+.bradesco {
     position: relative;
-    width: 100px;
+    width: 100%;
+}
+
+.convenio__img {
+    position: relative;
+    width: 90%;
     /* height: 100px; */
 }
 
@@ -54,34 +63,163 @@
     transform: translateY(-50%);
 }
 
-.mg-convenio{
+.mg-convenio {
     margin-bottom: 10px;
 }
 
-.agendamento{
+.agendamento {
     position: relative;
     width: 100%;
-    padding: 10vh;
+    padding: 10vh 0;
     background-color: rgb(51, 55, 107);
 }
 
-.agendamento h1{
+.agendamento h1 {
     color: #fff;
     font-size: 32px;
     font-weight: bold;
 }
 
-.agendamento h2{
+.agendamento h2 {
     color: #fff;
     font-size: 24px;
 }
 
-.form-group label{
+.form-check-label {
+    color: #fff
+}
+
+.form-check {
+    margin: 10px 0;
+}
+
+.form-group label {
     color: #fff;
     margin-bottom: 5px;
 }
 
-.btn-enviar{
+.btn-enviar {
     background-color: #fff;
     color: rgb(51, 55, 107);
+    margin-top: 20px;
+    min-width: 40%;
+}
+
+@media(max-width: 1210px) {
+    .agendamento h1 {
+        font-size: 30px;
+    }
+    .agendamento h2 {
+        font-size: 22px;
+    }
+}
+
+@media(max-width: 1199px) {}
+
+@media(max-width: 1030px) {
+    .agendamento h1 {
+        font-size: 28px;
+    }
+    .local_clinor {
+        width: 150px;
+        height: 150px;
+    }
+    .endereco,
+    .telefone {
+        margin-top: 10px;
+    }
+    .local h1,
+    .convenio h1 {
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 991px) {
+    .agendamento h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .agendamento h2 {
+        margin-bottom: 20px;
+    }
+    .box-local {
+        margin-bottom: 25px;
+        padding: 0 5%;
+    }
+    .local_clinor {
+        width: 170px;
+        height: 170px;
+    }
+}
+
+@media(max-width: 860px) {}
+
+@media(max-width: 767px) {
+    .convenio__img {
+        position: relative;
+        width: 70%;
+        /* height: 100px; */
+    }
+    .local h1,
+    .convenio h1 {
+        margin-bottom: 30px;
+    }
+    .bradesco {
+        position: relative;
+        width: 70%;
+        margin: 0 15% 10%;
+    }
+    .convenio h1 {
+        padding-bottom: 10px;
+        border-bottom: 1px solid rgba(51, 55, 107, 0.247);
+    }
+}
+
+@media(max-width: 660px) {
+    .local h1,
+    .convenio h1,
+    .agendamento h1 {
+        font-size: 28px;
+    }
+}
+
+@media(max-width: 575px) {
+    .agendamento {
+        position: relative;
+        width: 100%;
+        padding: 10vh 5%;
+        background-color: rgb(51, 55, 107);
+    }
+    .convenio__img {
+        position: relative;
+        width: 70%;
+        /* height: 100px; */
+    }
+    .bradesco {
+        position: relative;
+        width: 60%;
+        margin: 0 20% 10%;
+    }
+}
+
+@media(max-width: 490px) {
+    .local h1,
+    .convenio h1,
+    .agendamento h1 {
+        font-size: 26px;
+    }
+    label {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 360px) {
+    .local h1,
+    .convenio h1,
+    .agendamento h1 {
+        font-size: 23px;
+    }
+    .agendamento h2 {
+        margin-bottom: 18px;
+    }
 }

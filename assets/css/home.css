@@ -1,45 +1,95 @@
-.formacao{
+.formacao {
     padding: 10vh 0;
 }
 
-.box-formacao{
+.box-formacao {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
 }
 
-.perfil-dr img{
+.perfil-dr img {
     position: relative;
     width: 60%;
     height: auto;
     margin: 0 20% 5%;
 }
 
-.row-formacao{
+.row-formacao {
     margin-bottom: 30px;
 }
 
-.formacao p{
+.formacao p {
     color: rgb(51, 55, 107);
     font-size: 18px;
     line-height: 28px;
     text-align: justify;
 }
 
-.formacao h1{
+.formacao h1 {
     color: rgb(92, 138, 81);
     font-size: 32px;
     margin-bottom: 20px;
 }
 
-.formacao .plataforma-dados{
+.formacao .plataforma-dados {
     position: relative;
     margin-top: 80px;
     padding: 30px 20px;
 }
 
-.formacao .plataforma-dados__item{
+.formacao .plataforma-dados__item {
     width: 100%;
     height: 150px;
     background-color: lawngreen;
+}
+
+@media(max-width: 1199px) {
+    .formacao p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+@media(max-width: 991px) {
+    .formacao h1 {
+        font-size: 30px;
+    }
+    .formacao p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .formacao {
+        padding: 6vh 0;
+    }
+}
+
+@media(max-width: 767px) {
+    .perfil-dr {
+        position: relative;
+        width: 45%;
+        height: 250px;
+        float: left;
+        margin: 5% 2.5%;
+    }
+    .perfil-dr img {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .perfil-dr {
+        position: relative;
+        height: 240px;
+    }
+}
+
+@media (max-width: 360px) {
+    .perfil-dr {
+        position: relative;
+        height: 220px;
+    }
 }
